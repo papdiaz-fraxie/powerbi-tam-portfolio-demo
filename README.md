@@ -1,20 +1,29 @@
-# Power BI TAM Portfolio Demo
+# Phillip Paez — Data, Automation & Operations Portfolio
 
-Interactive recruiter-facing recreation of a genuine Power BI Desktop market-intelligence / TAM project by Phillip Paez.
+Recruiter-facing portfolio built around genuine professional data, analytics and automation work.
 
-## What this demonstrates
+## Live portfolio
 
-- TAM sizing and state concentration analysis
-- Interactive filtering across state, industry, employee size, revenue, technology readiness and priority
-- Market segmentation and target-segment prioritisation
-- Power BI Desktop project concepts using Power Query, DAX, PBIP, PBIR and TMDL
+https://papdiaz-fraxie.github.io/powerbi-tam-portfolio-demo/
 
-## Data transparency
+## Selected projects
 
-The **37,993 Australian TAM** and exact state totals are source-derived from the original client-facing analysis. Detailed industry, employee-size, revenue, technology-readiness and priority distributions are synthetic/anonymised for portfolio use.
+1. **BigQuery Data Platform & Automation** — reusable B2B data environment, SQL/Python validation, deduplication and workflow automation.
+2. **Market Intelligence & TAM Analysis** — client-facing TAM analysis, Power BI Desktop portfolio recreation and interactive browser dashboard.
+3. **Research Workflow & Data Production Improvement** — output monitoring, validation, QA exceptions and campaign-readiness controls.
 
-No client company/contact records, credentials or proprietary raw datasets are published.
+## Technical evidence
 
-## Important distinction
+The repository includes safe public examples of:
 
-This public site is a browser-based interactive recreation so recruiters can view the analysis without a Microsoft login. The underlying portfolio report was separately built, refreshed and validated in genuine Power BI Desktop.
+- BigQuery-style SQL quality checks and deduplication
+- Python/pandas data validation
+- Python/pandas workflow monitoring
+- Synthetic campaign KPI analysis
+- An interactive market-intelligence dashboard recreation
+
+## Privacy and accuracy
+
+The portfolio is based on real professional work, but public code and detailed datasets are synthetic or anonymised where required. No client contact/company records, credentials or proprietary production code are published.
+
+For the TAM case study, the overall **37,993** Australian company count and exact state totals are source-derived. Deeper segmentation in the public interactive demo is synthetic/anonymised.
