@@ -6,18 +6,28 @@ Recruiter-facing portfolio built around genuine professional data, analytics and
 
 https://papdiaz-fraxie.github.io/powerbi-tam-portfolio-demo/
 
+## Portfolio positioning
+
+**Data systems behind real business decisions.**
+
+The portfolio is intentionally positioned around four stable professional case studies rather than a growing list of generic dashboard exercises. The design standard is recruiter-first and proof-first:
+
+**Problem → My role → Scale → Method → Outcome → Inspectable evidence → Privacy boundary**
+
+Each featured project now surfaces those elements near the top of the page, with direct links to relevant SQL, Python, DAX, dashboards or build evidence where available.
+
 ## Selected projects
 
 1. **BigQuery Data Platform & Automation** — created a central repository for B2B research that previously lived in separate campaign Google Sheets. The broader environment grew to roughly **1M+ records**, with around **56 researchers** contributing data and an average of about **208 client campaigns per year** across 2022–2025. The case study covers layered human/programmatic QA, Python/SQL standardisation, historical record retention, latest-build selection and Paperform/webhook/Apps Script data exports.
 2. **Customer Data Reconciliation & Quality Pipeline** — designed a Python + BigQuery reconciliation workflow for incoming client enrichment files of roughly **1,000–5,000 contact or account records**. Before the workflow, researchers built records manually one by one at roughly **50 records per researcher per day**. Current repository matches could be verified in **seconds** rather than rebuilt from scratch, while every row still received human review. The project covers controlled intake schemas, contact/account matching, recency logic, human-in-the-loop verification, row-level QA outcomes, separate client QA reporting and Python batch loading back into BigQuery for future reuse.
 3. **Operational Performance Analytics — Attribution, Conversion & Data Quality** — produced monthly Power BI analysis mainly for the **CEO and directors**, matching call activity to Qualified outcomes and comparing **Mobile / Direct / Personal** with **Switch / Landline** performance. For May 2025–May 2026 the measured rates were **1.78 vs 0.29 qualified per 1,000 calls**. The project also investigates reduced fresh mobile supply, heavier repeat calling and a time-of-day result that was challenged because CRM update timing could create bias. Public aggregate data, DAX and a Power BI build guide support a new privacy-safe portfolio recreation; the new Desktop report is not called validated until it is actually opened and checked in Power BI Desktop.
-4. **Market Intelligence & TAM Analysis** — converted a client targeting brief into a **37,993-company Australian TAM** and analysed where the opportunity was concentrated. NSW + Victoria represented **63.7%** of the market; NSW + Victoria + Queensland represented **80.9%**. The original client-facing report was built in Looker Studio and the analytical concept was recreated in Power BI Desktop for the public portfolio.
+4. **Market Intelligence & TAM Analysis** — converted a client targeting brief into a **37,993-company Australian TAM** and analysed where the opportunity was concentrated. NSW + Victoria represented **63.7%** of the market; NSW + Victoria + Queensland represented **80.9%**. The original client-facing report was built in Looker Studio and the analytical concept was recreated and validated in Power BI Desktop for the public portfolio.
 
-The earlier **Research Workflow & Data Production** case study remains in the repository but is not a headline homepage project. The featured mix now prioritises data platform, customer data, operational performance analytics and market intelligence.
+The earlier **Research Workflow & Data Production** case study remains in the repository but is not a headline homepage project.
 
 ## Portfolio stability rule
 
-The four core projects above are intended to remain stable rather than being rewritten for each application. For individual jobs, the resume, cover letter and the specific project link highlighted can change, but the underlying public case studies should only change when new verified work materially improves the evidence.
+The four core projects above remain stable rather than being rewritten for each application. For individual jobs, the resume, cover letter and the specific project link highlighted can change, but the underlying public case studies should only change when new verified work materially improves the evidence.
 
 ## Technical evidence
 
@@ -31,9 +41,23 @@ The repository includes safe public examples of:
 - Human-review and QA-summary logic for matched/unmatched customer data
 - Power BI DAX measures for call-channel, supply and attribution-quality analysis
 - Privacy-safe aggregate source tables for the operations analytics rebuild
-- Browser recreations of the sales-performance and market-intelligence analyses
+- Browser recreations of the operational-performance and market-intelligence analyses
 - Source-derived Australian TAM state analysis in Python
 - Synthetic campaign funnel / qualification analysis in Python
+
+## Benchmark-informed redesign
+
+The September 2026 portfolio review compared the site with experienced analyst/data-operations portfolios and stronger senior analytics-engineering examples. The useful patterns were not copied project-for-project. Instead, the site adopted the transferable strengths:
+
+- faster recruiter scanability
+- visible professional context and operating scale
+- one-line business outcome on each project card
+- explicit **Problem / Proof / My role / Value** summaries
+- direct evidence links instead of asking the reader to trust claims
+- clear real-versus-synthetic boundaries
+- consistent case-study structure across all four projects
+
+The portfolio retains its own focus: real operational data problems involving customer data, quality controls, automation, reuse and decision support.
 
 ## Development approach
 
